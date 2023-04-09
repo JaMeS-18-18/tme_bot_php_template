@@ -61,7 +61,7 @@ if($chat_type == "private" && $chat_id == $admin){
             'text' => $hi_text,
             'parse_mode' => 'HTML',
             'reply_markup' => json_encode([
-                'inline_keyboard' => $list_files
+              
             ])
         ]);
     }else if($text == "/hisob" or $text == "Hisob"){
